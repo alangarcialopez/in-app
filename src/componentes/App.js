@@ -8,18 +8,25 @@ class App extends Component {
     return (
       
       <div className="App container">
-      <div>
-      </div>
+      
       <div className="contenido-principal contenido">
-        <PanelArriba />
+       <div>
+         <PanelArriba />
+       </div>
       </div>
+      
+      
         <Header      
-        titulo='Flasy Cards' /> 
+        titulo='Flasy Cards' />
+            <img className="mb-4" src="./flashy.png" alt="" width="72" height="72"/>
+        <h1 className="h3 mb-3 font-weight-normal">Please sign in</h1> 
       <div className="contenido-principal contenido">
       <div className="row" >
-      <div className="panel-body" >
+      <div>
+      <div className="sixteen columns" >
       <Formulario />
         
+      </div>
       </div>
 
       </div>

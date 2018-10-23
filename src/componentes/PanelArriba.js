@@ -4,9 +4,9 @@ class PanelArriba extends Component{
     render(){
         return(
             
-        <div class="panel panel-default">
+        <div className="panel panel-default">
         
-        <div class="panel-heading">
+        <div className="panel-heading">
         <input className="button-primary u-full-width" type="submit" value="Iniciar" />
         <input className="button-primary u-full-width" type="submit" value="Registrate" />
        
